@@ -1,0 +1,87 @@
+.about {
+	display: flex;
+	justify-content: space-between;
+	flex-basis: 660px;
+	max-width: 660px;
+	flex-wrap: wrap;
+}
+
+.photoWrapper {
+	border-radius: 50%;
+	overflow: hidden;
+	height: 220px;
+	box-shadow: 0px 0 0 5px white;
+	margin-top: 9px;
+}
+
+.aboutWrapper {
+	display: flex;
+	margin-top: 1px;
+	flex-direction: column;
+	max-width: 100%;
+}
+
+.nameSection {
+	margin: 0;
+	color: #414141;
+    font-weight: 500;
+    font-size: 35px;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+.textWrapper {
+	margin: 19px 2px 0 0;
+	max-width: 378px;
+	height: 317px;
+	padding-right: 25px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.textWrapper::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+.textWrapper::-webkit-scrollbar-track { 
+    background-color: #f6f6f6; 
+}
+ 
+.textWrapper::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background-color: #d8d8d8;
+}
+
+.text {
+	margin: 0 0 11px 0;
+	max-width: 348px;
+	color: #646464;
+	word-wrap: break-word;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 25px;
+}
+
+.linkDownload {
+	display: inline-block;
+    color: #e85f61;
+    padding: 8px 13px 8px 34px;
+    text-decoration: none;
+    font-size: 14px;
+    border: 2px solid #e85f61;
+    border-radius: 20px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    background: url(img/download.png) 12px 9px no-repeat;
+}
+
+.linkDownload:hover {
+	color: white;
+	background: url(img/download-hover.png) 12px 9px no-repeat;
+	background-color: #e85f61;
+}
+
+.linkDownload_position {
+	margin-top: 59px;
+    align-self: flex-end;
+}

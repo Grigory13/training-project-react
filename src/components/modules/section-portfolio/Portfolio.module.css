@@ -1,0 +1,43 @@
+.nameSection {
+	margin: 0;
+	color: #414141;
+    font-weight: 500;
+    font-size: 35px;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+.portfolio {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 700px;
+	max-width: 700px;
+}
+
+.portfolioWrapper {
+	margin-top: 3px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.portfolioItem__appCategory {
+	margin: 14px 0 0 18px;
+	font-size: 14px;
+	color: #aeaeae;
+	font-weight: 400;
+	background: url('img/icon-app.png') no-repeat;
+	padding-left: 14px;
+	max-width: 100%;
+    word-wrap: break-word;
+}
+
+.portfolioItem__pcCategory {
+	margin: 14px 0 0 18px;
+	font-size: 14px;
+	color: #aeaeae;
+	font-weight: 400;
+	background: url('img/icon-pc.png') no-repeat;
+	padding-left: 26px;
+	max-width: 100%;
+    word-wrap: break-word;
+}

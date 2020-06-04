@@ -1,0 +1,142 @@
+.professions {
+	position: relative;
+	width: 381px;
+	margin-bottom: 20px;
+	z-index: 3;
+}
+
+.professions:last-child {
+	margin-bottom: 0;
+}
+
+.professions:nth-child(2) > .year:after {
+	background-color: #f6f6f6;
+	height: 100%;
+	width: 4px;
+	top: -100%;
+	left: 40px;
+	z-index: 2;
+}
+
+.professions:last-child > .year:after {
+	background-color: #f6f6f6;
+	height: 100%;
+	width: 4px;
+	top:  0;
+	left: 40px;
+	z-index: 2;	
+} 
+
+.year {
+	position: absolute;
+	display: inline-block;
+    font-size: 14px;
+    font-weight: 300;
+    top: 50%;
+    left: -62px;
+    height: 50%;
+    max-width: 30px;
+    word-wrap: break-word;
+}
+
+.year span {
+	max-width: 100%;
+}
+
+.year:after {
+	position: absolute;
+	content: "";
+}
+
+.year:before {
+	position: absolute;
+	content: "";
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #33c1e3;
+	left: 37px;
+	box-shadow: 0 0 0 5px #f6f6f6;
+	z-index: 3;
+}
+
+.buttonCareer {
+	cursor: pointer;
+	width: 381px;
+	padding: 17px 20px 18px 20px;
+	background-color: white;
+	border-radius: 8px;
+	text-align: left;
+	border-top: 1px solid #f1f1f1;
+	border-bottom: 1px solid #d5d5d5;
+	border-right: 1px solid #e6e6e6;
+	border-left: 1px solid #e6e6e6;
+	box-shadow: -1px 0 0 #f1f1f1,
+	            1px 0 0 #f1f1f1,
+	            0 1px 0 #e6e6e6,
+	            0 2px 0 #f1f1f1;
+}
+
+.buttonCareer:focus {
+	outline: none;
+}
+
+.buttonCareer:hover {
+    color: white;
+    background-color: #33c1e3;
+    outline: none;
+}
+
+.buttonCareer:hover + .year {
+	color: #33c1e3;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.buttonCareer:hover + .year:before {
+	background-color: #33c1e3;
+	box-shadow: 0 0 0 5px #94dff2;
+}
+
+.buttonCareer:hover > .post {
+	color: white;
+}
+
+.buttonCareer:hover > .dateWork {
+	color: white;
+}	
+
+.place {
+  font-size: 20px;
+  font-family: 'DejaVu Sans';
+  margin: 0 0 4px 0;
+  letter-spacing: -1px;
+  word-wrap: break-word;
+  max-width: 100%;
+}
+
+.post {
+    margin: 0 0 7px;
+    max-width: 100%;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 21px;
+	color: #aaaaaa;
+	font-family: 'Fira Sans';
+	word-wrap: break-word;
+}
+
+.dateWork {
+	margin: 0;
+	max-width: 100%;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 100%;
+	color: #aaaaaa;
+	font-family: 'Fira Sans';
+	word-wrap: break-word;
+}
+
+.block {
+	display: inline-block;
+}

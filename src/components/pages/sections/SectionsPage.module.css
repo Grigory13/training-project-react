@@ -1,0 +1,10 @@
+.sectionsWrapper {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: "header"
+                        "main"
+                        "footer";
+  font-family: 'Fira Sans';
+  background-color: #f6f6f6;
+}

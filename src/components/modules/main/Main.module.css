@@ -1,0 +1,9 @@
+.main {
+	padding: 20px 0;
+}
+
+.mainWrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
