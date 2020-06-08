@@ -1,10 +1,10 @@
 import React from 'react';
 import s from './Portfolio.module.css';
-import app from 'url:./img/app.png';
-import dream from 'url:./img/dream.png';
-import creativeStudio from 'url:./img/creative-studio.png';
-import studio from 'url:./img/studio.png';
-import carbonara from 'url:./img/carbonara.png';
+import app from 'url:../../../img/app.png';
+import dream from 'url:../../../img/dream.png';
+import creativeStudio from 'url:../../../img/creative-studio.png';
+import studio from 'url:../../../img/studio.png';
+import carbonara from 'url:../../../img/carbonara.png';
 import PortfolioItem  from '../../blocks/portfolio-block/PortfolioItem';
 
 function Portfolio() {

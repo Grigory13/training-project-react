@@ -22,7 +22,7 @@
 }
 
 .facebook {
-	background-image: url(img/sprite.png);
+	background-image: url(../../../img/sprite.png);
     background-position: -31px 0px;
     width: 31px;
     height: 30px;
@@ -31,7 +31,7 @@
 }
 
 .vk {
-    background-image: url(img/sprite.png);
+    background-image: url(../../../img/sprite.png);
     background-position: -62px -30px;
     width: 31px;
     height: 30px;
@@ -40,7 +40,7 @@
 }
 
 .twitter {
-	background-image: url(img/sprite.png);
+	background-image: url(../../../img/sprite.png);
     background-position: -31px -30px;
     width: 31px;
     height: 30px;
@@ -48,21 +48,21 @@
 }
 
 .facebook:hover {
-	background-image: url(img/sprite.png);
+	background-image: url(../../../img/sprite.png);
     background-position: 0px 0px;
     width: 31px;
     height: 30px;
 }
 
 .vk:hover {
-	background-image: url(img/sprite.png);
+	background-image: url(../../../img/sprite.png);
     background-position: -62px 0px;
     width: 31px;
     height: 30px;
 }
 
 .twitter:hover {
-	background-image: url(img/sprite.png);
+	background-image: url(../../../img/sprite.png);
     background-position: 0px -30px;
     width: 31px;
     height: 30px;

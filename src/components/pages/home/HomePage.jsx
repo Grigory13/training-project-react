@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import s from './HomePage.module.css';
-import photo from 'url:./img/photo.png';
+import photo from 'url:../../../img/photo.png';
 
 function HomePage() {
     return(

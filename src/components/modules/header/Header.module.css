@@ -145,16 +145,16 @@
 }
 
 .mailLink {
-	background: url(img/mail.png) 0 center no-repeat;
+	background: url(../../../img/mail.png) 0 center no-repeat;
 	padding-left: 28px;
 }
 
 .numberLink {
-	background: url(img/phone.png) 0 center no-repeat;
+	background: url(../../../img/phone.png) 0 center no-repeat;
 	padding-left: 28px;
 }
 
 .skypeLink {
-	background: url(img/skype.png) 0 center no-repeat;
+	background: url(../../../img/skype.png) 0 center no-repeat;
 	padding-left: 28px;
 }

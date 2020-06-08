@@ -25,7 +25,7 @@
 	font-size: 14px;
 	color: #aeaeae;
 	font-weight: 400;
-	background: url('img/icon-app.png') no-repeat;
+	background: url('/src/img/icon-app.png') no-repeat;
 	padding-left: 14px;
 	max-width: 100%;
     word-wrap: break-word;
@@ -36,7 +36,7 @@
 	font-size: 14px;
 	color: #aeaeae;
 	font-weight: 400;
-	background: url('img/icon-pc.png') no-repeat;
+	background: url('/src/img/icon-pc.png') no-repeat;
 	padding-left: 26px;
 	max-width: 100%;
     word-wrap: break-word;

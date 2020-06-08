@@ -52,37 +52,37 @@
 }
 
 .listMenu__link_iconAbout {
-	background: url(img/about.png) 0 center no-repeat;
+	background: url(../../../img/about.png) 0 center no-repeat;
 }
 
 .listMenu__link_iconCareer {
-	background: url(img/career.png) 0 center no-repeat;
+	background: url(../../../img/career.png) 0 center no-repeat;
 }
 
 .listMenu__link_iconPortfolio {
-	background: url(img/portfolio.png) 0 center no-repeat;
+	background: url(../../../img/portfolio.png) 0 center no-repeat;
 }
 
 .listMenu__link_iconAbout:hover {
-	background: url(img/about-hover.png) 0 center no-repeat;
+	background: url(../../../img/about-hover.png) 0 center no-repeat;
 }
 
 .listMenu__link_iconCareer:hover {
-	background: url(img/career-hover.png) 0 center no-repeat;
+	background: url(../../../img/career-hover.png) 0 center no-repeat;
 }
 
 .listMenu__link_iconPortfolio:hover {
-	background: url(img/portfolio-hover.png) 0 center no-repeat;
+	background: url(../../../img/portfolio-hover.png) 0 center no-repeat;
 }
 
 .iconAbout_active {
-	background: url(img/about-hover.png) 0 center no-repeat;
+	background: url(../../../img/about-hover.png) 0 center no-repeat;
 }
 
 .iconCareer_active {
-	background: url(img/career-hover.png) 0 center no-repeat;
+	background: url(../../../img/career-hover.png) 0 center no-repeat;
 }
 
 .iconPortfolio_active {
-	background: url(img/portfolio-hover.png) 0 center no-repeat;
+	background: url(../../../img/portfolio-hover.png) 0 center no-repeat;
 }

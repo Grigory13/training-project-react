@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './About.module.css';
-import fhoto from 'url:./img/big-photo.png';
+import fhoto from 'url:../../../img/big-photo.png';
 
 function About() {
     return(

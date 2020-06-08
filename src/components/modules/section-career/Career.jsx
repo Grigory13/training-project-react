@@ -1,8 +1,8 @@
 import React from 'react';
 import s from './Career.module.css';
-import petersburg from 'url:./img/petersburg-university.png';
-import work from 'url:./img/work.jpg';
-import university from 'url:./img/gorky-institute.jpg';
+import petersburg from 'url:../../../img/petersburg-university.png';
+import work from 'url:../../../img/work.jpg';
+import university from 'url:../../../img/gorky-institute.jpg';
 import Professions from '../../blocks/professions-block/Professions';
 
 

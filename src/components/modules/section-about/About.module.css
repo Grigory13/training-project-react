@@ -72,12 +72,12 @@
     border-radius: 20px;
     font-family: 'Open Sans';
     font-weight: 700;
-    background: url(img/download.png) 12px 9px no-repeat;
+    background: url(/src/img/download.png) 12px 9px no-repeat;
 }
 
 .linkDownload:hover {
 	color: white;
-	background: url(img/download-hover.png) 12px 9px no-repeat;
+	background: url(/src/img/download-hover.png) 12px 9px no-repeat;
 	background-color: #e85f61;
 }
 
